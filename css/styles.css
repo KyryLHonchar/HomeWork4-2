@@ -228,12 +228,12 @@ letter-spacing: 0.02em;
 }
 
 .container-team {
-    padding: 32px 0;
+    padding-top: 32px; 
+    padding-bottom: 32px;
 }
 
 .container-our-team {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 0;
 }
 
 
