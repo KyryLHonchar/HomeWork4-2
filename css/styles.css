@@ -300,6 +300,8 @@ ol {
   width: calc(100% - 72px / 4);
   border-radius: 0px 0px 4px 4px;
   gap: 24px;
+  background-color: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-subtitle {
@@ -322,10 +324,19 @@ ol {
   padding-bottom: 8px;
 }
 
+.svg-hero-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 .svg-team-list {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
 }
 .svg-team-title {
   width: 40px;
@@ -349,8 +360,9 @@ ol {
   width: 16px;
   height: 16px;
 }
-.svg-team-soc-item:hover {
-  background-color: #31d0aa;
+.svg-team-soc-item:hover,
+.svg-team-soc-item:focus {
+  background-color: #404bbf;
 }
 /* ====================================*/
 
