@@ -151,7 +151,7 @@ ol {
   background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
-  /* max-width: 1440px; */
+  max-width: 1440px;
 }
 
 .info-title {
@@ -457,13 +457,6 @@ ol {
   padding-top: 40px;
   padding-left: 32px;
   padding-right: 32px;
-  position: absolute;
-  top: 0;
-  background-color: #4d5ae5;
-  height: 100%;
-  transform: translateY(100%);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ========================================= */
 
